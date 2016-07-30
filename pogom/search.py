@@ -34,9 +34,9 @@ api = PGoApi()
 search_queue = Queue()
 
 
-def calculate_lng_degrees(lat):
-    return float(lng_gap_meters) / \
-        (meters_per_degree * math.cos(math.radians(lat)))
+# def calculate_lng_degrees(lat):
+#     return float(lng_gap_meters) / \
+#         (meters_per_degree * math.cos(math.radians(lat)))
 
 
 def send_map_request(api, position):
